@@ -1,0 +1,13 @@
+# camera credentials — never commit
+camhub.env
+*.env
+!camhub.env.example
+
+# internal docs (kept locally / on the server only)
+internal/
+
+# runtime output
+monitor.csv
+*.mkv
+__pycache__/
+*.pyc
